@@ -1,0 +1,21 @@
+{
+  "name": "xcgpseud/option",
+  "description": "Option / Some / Maybe",
+  "type": "library",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "xcgpseud",
+      "email": "chris.evans92@hotmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Option\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
